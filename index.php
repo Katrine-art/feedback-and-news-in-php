@@ -29,7 +29,7 @@ $result = $conn->query($sql);
       <div class="menu">
 
         <li><a href="../index.php" style="color:#787878;">Главная</a></li>
-        <li><a href="../news/newsportal.php">Новости</a></li>
+        <li><a href="../newspor/newsportal.php">Новости</a></li>
         <li><a href="../form/feedback.php">Обратная связь</a></li>
       </div>
     </ul>

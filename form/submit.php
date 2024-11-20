@@ -28,7 +28,7 @@ if ($conn->query($sql) === TRUE) {
     header("Location: view.php");
     exit();
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Ошибка: " . $sql . "<br>" . $conn->error;
 }
 
 

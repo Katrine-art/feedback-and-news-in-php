@@ -1,0 +1,96 @@
+body {
+            margin: 0;
+            height: 100vh; /* Задаем высоту 100% от видимой части экрана */
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            font-family: Arial, sans-serif;
+        }
+
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+li {
+  list-style: none;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  color: #ff1f1f;
+}
+
+.nav-links a {
+  color: #ff1f1f;
+}
+
+.nav-links a:hover {
+  color:#787878;
+}
+
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 16px;
+}
+
+
+
+.menu li {
+  padding: 5px 14px;
+}
+
+
+
+
+
+input[type=checkbox] {
+  display: none;
+} 
+
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
+
+@media (max-width: 768px) {
+ .menu {
+    display:none;
+    position: absolute;
+    background-color:#fff;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color:#4c9e9e;
+    transition: 0.3s ease;
+  }
+
+  .menu li + li {
+    margin-top: 12px;
+  }
+
+  input[type=checkbox]:checked ~ .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+}

@@ -137,7 +137,7 @@ textarea {
       <div class="menu">
 
         <li><a href="../index.php" >Главная</a></li>
-        <li><a href="../news/newsportal.php">Новости</a></li>
+        <li><a href="../newspor/newsportal.php">Новости</a></li>
         <li><a href="../form/feedback.php" style="color:#787878;">Обратная связь</a></li>
       </div>
     </ul>
